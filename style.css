@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 1vw 10vw;
+    font-family: 'PT Serif', serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li:hover{
+    color: rgb(213 125 94);
+    cursor: pointer;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    margin: 0px 12px;
+}
+
+.fit{
+     margin-top:15px ;
+     font-size: 1.3rem;
+     color: rgb(213 125 94);
+}
+
+.section1{
+    display: flex;
+}
+
+
+.btn{
+    padding: 5px 9px;
+    background-color: rgb(213 125 94);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dumbel{
+    width: 10vw;
+}
+
+.gym{
+    width: 24vw;
+    margin: 1vw 0vw;
+}
+
+.flex{
+    text-align: center;
+    margin: 10vw 2vw;
+}
+.section2 h1{
+    margin: 8px 0px;
+}
+.text-center{
+    text-align: center;
+}
+ 
+.list-none{
+    list-style: none;
+    padding-right: 29px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    margin-top: 10px;
+}
+.box{
+    border: 2px solid rgb(213 125 94);
+    text-align: center;
+    min-width: 20vw;
+    margin: 0vw 2vw;
+    border-radius: 11px;
+}
+.pad{
+    padding: 4px 0px;
+    font-weight: bold;
+}
+.box ul li{
+    padding: 4px 0px;
+}
+.price{
+    padding-bottom: 1vw;
+    font-size: 2vw;
+}
+.bg-grey{
+    background-color: rgb(248, 224, 216);
+}
+.mt{
+    margin-top: 0px;
+
+    padding-top: 10px;
+}
+.border{
+    border-radius: 12px;
+}
+.pdm{
+    padding: 0px 8vw;
+    margin-top: 1vw;
+}
+.text-start {
+    text-align: left!important;
+    padding-left: 6vw;
+    padding-top: 2vw;
+}
+.pdm2{
+    min-width: 15vw;
+}
+.section2{
+    margin: 5vw 0vw;
+}
+.section3{
+    margin: 5vw 0vw;
+}
+.section3 table th{
+    border-bottom: 2px solid black;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+.section3 table{
+    border-collapse: collapse;
+    
+}
+.section3 table thead{
+     margin-bottom: 2px;
+    
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+footer{
+    padding: 34px;
+    text-align: center;
+}
